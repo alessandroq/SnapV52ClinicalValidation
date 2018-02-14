@@ -1,4 +1,4 @@
-/* UUID: 408937-959287-658402-198742- */ 
+/* UUID: 586455-461667-63513-575270- */ 
 
 html {
     margin: auto;
@@ -8,7 +8,25 @@ body {
     margin: 0;
     width: min-content;
 }
-img {
+
+            @media (-webkit-min-device-pixel-ratio: 3) {
+                .snapp-html5.fc.Screen {
+                    zoom: 3;
+                }
+            }
+            
+            @media (-webkit-min-device-pixel-ratio: 2) {
+                .snapp-html5.fc.Screen {
+                    zoom: 2;
+                }
+            }
+            
+            @media (-webkit-min-device-pixel-ratio: 1) {
+                .snapp-html5.fc.Screen {
+                    zoom: 1;
+                }
+            }
+            img {
   border: 0px;
 }
 
@@ -227,13 +245,13 @@ input, textarea, select {
 }
 
 @font-face {
-  font-family: fjs33544;
+  font-family: fjs710826;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs353314;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+  font-family: fjs695845;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
@@ -242,418 +260,698 @@ input, textarea, select {
 }
 
 @font-face {
-  font-family: fjs647829;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
   font-family: Montserrat-Medium;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs257070;
+  font-family: fjs925192;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs95671;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs944231;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs119799;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs728316;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs64488;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs706095;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs389748;
+  font-family: fjs393774;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs422595;
+  font-family: fjs284859;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs970648;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs208144;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs936399;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs592986;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs491538;
+  font-family: fjs570001;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs277916;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs242873;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs977033;
+  font-family: fjs759708;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs331621;
+  font-family: fjs120364;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs513350;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs362760;
+  font-family: fjs198778;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs650361;
+  font-family: fjs192975;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs883494;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs597544;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs48439;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs162541;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs610471;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs726794;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs369557;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs916069;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs547556;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs230597;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs378244;
-  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
-}
-
-@font-face {
-  font-family: fjs521241;
+  font-family: fjs491948;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs397852;
+  font-family: fjs211535;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs64055;
+  font-family: fjs62026;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs289020;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs264671;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs451206;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs994103;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs352216;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs549019;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs426112;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs877453;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs926226;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs862677;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs662718;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs904840;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs732117;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs900625;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs823800;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs642329;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs74733;
+  font-family: fjs182487;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs452133;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs984794;
+  font-family: fjs475694;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs587564;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs981305;
+  font-family: fjs936999;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs105692;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs983887;
+  font-family: fjs751408;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs269147;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs7065;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs566642;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs620490;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs193637;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs482784;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs247943;
+  font-family: fjs109246;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs666628;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs208918;
+  font-family: fjs624946;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs139236;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs947267;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs296985;
+  font-family: fjs594059;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs843086;
+  font-family: fjs713591;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs292613;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs113315;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs330644;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs551319;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs182117;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs106496;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs935983;
+  font-family: fjs323680;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs442203;
+  font-family: fjs564717;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs116741;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs233488;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs211531;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs787603;
+  font-family: fjs682195;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs839867;
+  font-family: fjs306571;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs621908;
+  font-family: fjs809445;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs47979;
+  font-family: fjs776745;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs588661;
+  font-family: fjs417707;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs926253;
+  font-family: fjs160272;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs953445;
+  font-family: fjs104951;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs464977;
+  font-family: fjs763252;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs668373;
+  font-family: fjs60368;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs274111;
+  font-family: fjs809869;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs158197;
+  font-family: fjs630916;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs266452;
+  font-family: fjs977769;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs423951;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs771520;
+  font-family: fjs692835;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs532157;
+  font-family: fjs232357;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs856402;
+  font-family: fjs60037;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs423710;
+  font-family: fjs837759;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs823804;
+  font-family: fjs653024;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs370056;
+  font-family: fjs16686;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs945946;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs324566;
+  font-family: fjs39421;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs431918;
+  font-family: fjs908129;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs959052;
+  font-family: fjs594889;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs43690;
+  font-family: fjs419425;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs379623;
+  font-family: fjs563267;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs43331;
+  font-family: fjs726736;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs930141;
+  font-family: fjs23883;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs469633;
+  font-family: fjs458103;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs414746;
+  font-family: fjs916131;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs922066;
+  font-family: fjs150589;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs608539;
+  font-family: fjs997017;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs948361;
+  font-family: fjs341072;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs307788;
+  font-family: fjs270987;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs875802;
+  font-family: fjs790495;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs156910;
+  font-family: fjs796694;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs163963;
+  font-family: fjs474408;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs965408;
+  font-family: fjs889386;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs909613;
+  font-family: fjs243984;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs370271;
+  font-family: fjs111398;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs410989;
+  font-family: fjs529482;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs741443;
+  font-family: fjs745739;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs72352;
+  font-family: fjs316049;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs924007;
+  font-family: fjs941803;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs280115;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs743279;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs340284;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs885529;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs972359;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs419566;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs754690;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs22997;
+  font-family: fjs523558;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
 }
 
 @font-face {
-  font-family: fjs859470;
+  font-family: fjs833783;
   src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs415628;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs290195;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs348173;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs861190;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs45679;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs29137;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs898717;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs443998;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs668559;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs511598;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs50161;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs117503;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs400287;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs988036;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs369966;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs133266;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs529331;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs558625;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs948664;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs72624;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs377224;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
 }
 
 .main-button {

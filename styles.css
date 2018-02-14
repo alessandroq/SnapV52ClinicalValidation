@@ -1,0 +1,913 @@
+/* UUID: 408937-959287-658402-198742- */ 
+
+html {
+    margin: auto;
+    width: min-content;
+}
+body {
+    margin: 0;
+    width: min-content;
+}
+img {
+  border: 0px;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+input {
+  line-height: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+p {
+  margin: 0px 0px 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.label:empty {
+  display: none;
+}
+
+.viewport {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.element {
+  cursor: default;
+  position: absolute;
+  overflow: hidden;
+}
+
+.element * {
+  vector-effect: non-scaling-stroke;
+}
+
+.wordwrap {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+body, input, button, select, textarea {
+  font-family: proxima_nova, Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.element.fc.Button .btn {
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  font-weight: normal;
+  background-size: 100%;
+  cursor: inherit;
+}
+
+.element.fc.Button .btn.system {
+  display: flex;
+  align-items: center;
+}
+
+.element.fc.Button .btn .img-container {
+  height: 100%;
+  margin: 0px 5%;
+}
+
+.element.fc.Button .btn.system div img {
+  width: auto;
+  height: 90%;
+}
+
+.element.fc.Textbox .textView {
+  width: 100%;
+  height: 100%;
+}
+
+.element.fc.Textbox .textView-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.textView {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  box-shadow: none;
+  height: 80%;
+  padding-left: 15px;
+  border-style: solid;
+  outline: none;
+}
+
+.element.fc.Label {
+  border-style: none;
+}
+
+.element.fc.Label .label-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.element.fc.Label .label.wordwrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  word-break: break-word;
+  border-radius: 0px;
+}
+
+.element.fc.Label .label {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-weight: normal;
+}
+
+.element.fc.Image {
+  overflow: hidden;
+  text-align: center;
+}
+
+.element.fc.Container {
+  background-color: rgb(238, 238, 238);
+}
+
+.element.fc.ListView {
+  background-color: rgb(238, 238, 238);
+}
+
+.element.fc.ListViewCell {
+  overflow: hidden;
+}
+
+.element.fc.Screen {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 6px;
+  background-size: cover;
+  overflow: visible;
+}
+
+.snapp-html5.fc.Screen {
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  display: none;
+  transform: none !important;
+}
+
+@font-face {
+  font-family: fjs33544;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs353314;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs647829;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs257070;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs95671;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs944231;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs119799;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs728316;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs64488;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs706095;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs389748;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs422595;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs491538;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs977033;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs331621;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs362760;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs650361;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs883494;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs597544;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs48439;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs162541;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs610471;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs726794;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs369557;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs916069;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs547556;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs230597;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs378244;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs521241;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs397852;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs64055;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs74733;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs984794;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs981305;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs983887;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs247943;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs208918;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs296985;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs843086;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs935983;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs442203;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs787603;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs839867;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs621908;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs47979;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs588661;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs926253;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs953445;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs464977;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs668373;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs274111;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs158197;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs266452;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs771520;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs532157;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs856402;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs423710;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs823804;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs370056;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs324566;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs431918;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs959052;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs43690;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs379623;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs43331;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs930141;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs469633;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs414746;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs922066;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs608539;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs948361;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs307788;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs875802;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs156910;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs163963;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs965408;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs909613;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs370271;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs410989;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs741443;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs72352;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs924007;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs22997;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+@font-face {
+  font-family: fjs859470;
+  src: url("https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a?direct=true") format("truetype");
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.input-wrapper {
+  text-align: left;
+  color: rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(52, 152, 219);
+  font-size: 24px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+.main-button {
+  background: linear-gradient(to right, rgb(41, 128, 185) 0%, rgb(52, 152, 219) 100%);
+  width: 295px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  margin: 10px;
+  border-radius: 200px;
+}
+
+#time-date-wrapper {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  display: table;
+  margin: 0px auto;
+}
+
+#time-date-inner {
+  display: table-row;
+}
+
+.date-col-left, .date-col-right {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#date {
+  font-size: 8em;
+  text-align: right;
+  font-weight: 200;
+  margin: 0px;
+}
+
+#month {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 5px;
+  text-align: left;
+}
+
+#day {
+  font-weight: 300;
+  font-size: 4rem;
+  margin: 5px;
+  text-align: left;
+}
+
+#time-date-wrapper {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  display: table;
+  margin: 0px auto;
+}
+
+#time-date-inner {
+  display: table-row;
+}
+
+.date-col-left, .date-col-right {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#date {
+  font-size: 8em;
+  text-align: right;
+  font-weight: 200;
+  margin: 0px;
+}
+
+#month {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 5px;
+  text-align: left;
+}
+
+#day {
+  font-weight: 300;
+  font-size: 4rem;
+  margin: 5px;
+  text-align: left;
+}
